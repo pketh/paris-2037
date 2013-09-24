@@ -40,3 +40,5 @@ name = started as a poster for a world’s fair based the one in paris in 1937
 : at end: gotta make a favicon
 
 : ADD media queries for comets at small view sizes
+
+responsive posters . screens on every surface. future of posters?

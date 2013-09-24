@@ -6,6 +6,14 @@ body {
   background-color: black;
 }
 
+.gpu {
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
 /* ======================= */
 /* COMETS */
 
@@ -273,7 +281,7 @@ body {
   transition: opacity .3s;
 }
 
-.scroll-down:hover {
+.scroll-down:hover, .logo:hover {
 opacity: .5;  
 }
 
@@ -374,8 +382,6 @@ opacity: .5;
 }
 
 
-
-
 /* ---------------------------------- */
 /* CITY */
 
@@ -383,7 +389,7 @@ opacity: .5;
   width: 100%;
   overflow-x: hidden;
   margin-top: 30%;
-  margin-bottom: 20%;
+  margin-bottom: 5%;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -412,62 +418,126 @@ opacity: .5;
 }
 
 .midstars {
-  margin-top: 430px;
+  position: absolute;
+  top: 440px;
+  background-repeat: repeat-x;
+  background-image: url('images/midstars.svg');
+  height: 305px;
+  width: 100%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-name: starPan;
+  -webkit-animation-timing-function: linear;
 }
-/* animate this = horizontal pan */
+
+@-webkit-keyframes starPan {
+  from {
+    background-position-x: 0%;
+  }
+  to {
+    background-position-x: 100%;
+  }
+}
 
 
+/* ---------------------------------- */
+/* LEGS */
+
+.legs {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 282px;
+  height: 50%;
+  margin-bottom: 5%;
+}
+
+.left-leg {
+  z-index: -1;
+  position: absolute;
+  top: 36px;
+  left: 15px;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-name: leftLeg;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes leftLeg {
+  from {
+    -webkit-transform: rotate(0deg);
+    top: 36px;
+    left: 15px;
+  }
+  to {
+    -webkit-transform: rotate(10deg);
+    top: 33px;
+    left: 3px;
+  }
+}
+
+.right-leg {
+  z-index: -1;
+  position: absolute;
+  top: 50px;
+  left: 90px;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-name: rightLeg;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-delay:1s
+}
+
+@-webkit-keyframes rightLeg {
+  from {
+    -webkit-transform: rotate(0deg);
+    top: 50px;
+    left: 90px;
+  }
+  to {
+    -webkit-transform: rotate(10deg);
+    top: 45px;
+    left: 85px;
+  }
+}
+
+.footer {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  height: 30px;
+}
 
 
+.logo {
+  cursor: pointer;
+  transition: opacity .3s;
+  width: 118px;
+  position: absolute;
+  
+  /* left set in js */
+}
 
+.github-link {
+  text-decoration: none;
+  opacity: .5;
+  transition: opacity .3s;
+  position: absolute;
+  right: 30px;
+  bottom: -75px;
+  font-family: Avenir, Avenirs, Helvetica, sans-serif;
+  color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.logo {margin-bottom: 1600px;}
-
-
-
-
-
-
-
-
+.github-link:hover {
+  opacity: .3;
+}
 
 
 

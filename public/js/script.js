@@ -45,9 +45,46 @@ $( document ).ready(function() {
     // $('.circle4').css({"top" : ( .3 * $(window).scrollTop() ) +150,    "opacity" : ($(window).height() / $(document).scrollTop() ) -.5 })
   });
 
-
+  // horizontally center logo
+  var logoWidthSplit = ((width - 118) / 2)
+  $('.logo').css({
+    "left": logoWidthSplit
+  });
 
 }); // end of document ready
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
