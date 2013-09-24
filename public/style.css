@@ -1,0 +1,483 @@
+/* refactor to scss afterwards, for vendor prefixing and breaking into modules */
+/* scss: insert reset up top */
+
+
+body {
+  background-color: black;
+}
+
+/* ======================= */
+/* COMETS */
+
+.comets {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+.comet {
+  background-image: url('images/comet.svg');
+  position: absolute;
+  width: 492px;
+  height: 493px;
+  background-repeat: no-repeat;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: infinite;
+
+
+}
+
+.comet1 {
+  top: 0%;
+  right: 0%;    
+  opacity: 0;
+  -webkit-animation-name: comet1;
+  -webkit-animation-duration: 2s;
+  -webkit-transform: rotate(2deg);
+}
+
+@-webkit-keyframes comet1 {
+  from {
+    top: -50%;
+    right: -40%;
+    opacity: 1;
+  }
+  60% {
+    top: 0%;
+    right: 0%;   
+    opacity: 0; 
+  }
+  99%, to {
+    top: -50%;
+    right: -40%;
+    opacity: 0;
+  }
+}
+
+.comet2 {
+  top: -30%;
+  right: 0%;    
+  opacity: 0;
+  -webkit-animation-name: comet2;
+  -webkit-animation-duration: 2.4s;
+  -webkit-transform: rotate(1deg);
+
+}
+
+@-webkit-keyframes comet2 {
+  from {
+    top: -50%;
+    right: -20%;
+    opacity: 1;
+  }
+  60% {
+    top: -30%;
+    right: 0%;   
+    opacity: 0; 
+  }
+  99%, to {
+    top: -50%;
+    right: -20%;
+    opacity: 0;
+  }
+}
+
+.comet3 {
+  top: 0%;
+  right: -10%;    
+  opacity: 0;
+  -webkit-animation-name: comet3;
+  -webkit-animation-duration: 2.2s;
+  -webkit-animation-delay:.8s
+  -webkit-transform: rotate(1deg);
+}
+
+@-webkit-keyframes comet3 {
+  from {
+    top: -30%;
+    right: -40%;
+    opacity: 1;
+  }
+  60% {
+    top: 0%;
+    right: -10%;    
+    opacity: 0;
+  }
+  99%, to {
+    top: -30%;
+    right: -40%;
+    opacity: 0;
+  }
+}
+
+.comet4 {
+  top: -5%;
+  right: -25%;
+  opacity: 0;
+  -webkit-animation-name: comet4;
+  -webkit-animation-duration: 1.8s;
+  -webkit-animation-delay:.5s
+  -webkit-transform: rotate(-1deg);
+
+}
+
+@-webkit-keyframes comet4 {
+  from {
+    top: -15%;
+    right: -40%;
+    opacity: 1;
+  }
+
+  60% {
+    top: 5%;
+    right: -25%;
+    opacity: 0;
+    
+  }
+  
+  99%, to {
+    top: -15%;
+    right: -40%;
+    opacity: 0;
+  }
+}
+
+.comet5 {
+  top: -30%;
+  right: 40%;
+  opacity: 1;
+  -webkit-animation-name: comet5;
+  -webkit-animation-duration: 2.1s;
+}
+
+@-webkit-keyframes comet5 {
+  from {
+    top: -50%;
+    right: 20%;
+    opacity: 1;
+  }
+  
+  60% {
+    top: -30%;
+    right: 40%;
+    opacity: 0;
+  }
+  
+  99%, to {
+    top: -50%;
+    right: 20%;
+    opacity: 0;
+  }
+}
+
+.comet6 {
+  top: -10%;
+  right: 8%;
+  opacity: 1;
+  -webkit-animation-name: comet6;
+  -webkit-animation-duration: 2.3s;
+}
+
+@-webkit-keyframes comet6 {
+  from {
+    top: -50%;
+    right: -32%;
+    opacity: 1;
+  }
+
+  60% {
+    top: -10%;
+    right: 8%;
+    opacity: 0;
+  }
+
+  99%, to {
+    top: -50%;
+    right: -32%;
+    opacity: 0;
+  }
+}
+
+.comet7 {
+  top: -5%;
+  right: 35%;
+  opacity: 0;
+  -webkit-animation-name: comet7;
+  -webkit-animation-duration: 2.0s;
+  -webkit-animation-delay:1.3s
+  -webkit-transform: rotate(-2deg);
+}
+
+@-webkit-keyframes comet7 {
+  from {
+    top: -35%;
+    right: 5%;
+    opacity: 1;
+  }
+
+  60% {
+    top: -5%;
+    right: 35%;
+    opacity: 0;
+  }
+
+  99%, to {
+    top: -35%;
+    right: 5%;
+    opacity: 0;
+  }
+}
+
+.comet8 {
+  top: 0%;
+  right: 15%;
+  opacity: 0;
+  -webkit-animation-name: comet8;
+  -webkit-animation-duration: 2.3s;
+  -webkit-animation-delay:1.6s
+}
+
+@-webkit-keyframes comet8 {
+  from {
+    top: -30%;
+    right: -15%;    
+    opacity: 1;
+  }
+
+  60% {
+    top: 0%;
+    right: 15%;
+    opacity: 0;
+  }
+
+  99%, to {
+    top: -30%;
+    right: -15%;    
+    opacity: 0;
+  }
+}
+
+.header-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scroll-down {
+  position: absolute;
+  height: 13px;
+  width: 23px;
+  padding: 10px;
+  transition: opacity .3s;
+}
+
+.scroll-down:hover {
+opacity: .5;  
+}
+
+.down-animation{
+  -webkit-animation-name: arrow;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes arrow {  
+  from {
+    opacity: 0;
+    margin-top: -20px;
+  }
+  50% {
+    opacity: 0;
+    margin-top: -20px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+.hidden {
+  opacity: 0;
+}
+
+/* =================================== */
+
+.circles {
+  position: relative;
+}
+
+/* TOPSTARS */
+
+.topstar1 {
+  -webkit-animation-duration: 160s;
+  -webkit-animation-name: spin1;
+  -webkit-animation-timing-function: ease-in;
+}
+
+.topstar2 {
+  -webkit-animation-duration: 260s;
+  -webkit-animation-name: spin2;
+}
+
+.topstars {
+  -webkit-animation-iteration-count: infinite;
+  position: absolute;
+  z-index: -1;
+  top: -6%;
+  /* left set in .js */
+}
+
+@-webkit-keyframes spin1 {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+  from { -webkit-transform: rotate(270deg); }
+  to { -webkit-transform: rotate(630deg); }
+}
+
+/* PLANETS */
+
+.main-circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+
+.ooo {
+  position: absolute;
+  z-index: -1;
+}
+
+.circle1 {
+  /* top: 140px; */
+  left: 13%;
+}
+
+.circle2 {
+  /* top: 345px; */
+  left: 26%;
+}
+
+.circle3 {
+  /* top: 420px; */
+  left: 64%;
+}
+
+.circle4 {
+  /* top: 230px; */
+  left: 81%;
+}
+
+
+
+
+/* ---------------------------------- */
+/* CITY */
+
+.city-section {
+  width: 100%;
+  overflow-x: hidden;
+  margin-top: 30%;
+  margin-bottom: 20%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('images/city.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 800px;
+
+}
+
+.flag-tip {
+  position: absolute;
+  top: 121px;
+  left: 51.2%; /* media query tweaks +/- */
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: .4s;
+  -webkit-animation-name: flagWave;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease-out;
+
+}
+
+@-webkit-keyframes flagWave {
+  from {top: 120px}
+  to {top:122px}
+}
+
+.midstars {
+  margin-top: 430px;
+}
+/* animate this = horizontal pan */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {margin-bottom: 1600px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
