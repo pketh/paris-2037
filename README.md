@@ -9,4 +9,4 @@ Performance wise, It works fine on desktop, but may be slower on older phones - 
 [Try it](http://paris.comuf.com "Alt txt here")<br>
 [More details](http://pketh.org/Paris-2037)
 
-![screenshot](https://dl.dropboxusercontent.com/u/366007/Cargo/paris.png)
+![hi](https://dl.dropboxusercontent.com/u/366007/Cargo/paris-thumb.png)
