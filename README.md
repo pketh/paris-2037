@@ -9,4 +9,4 @@ This project uses a super lightweight stack. No other required dependencies othe
 
 ![screenshot](https://dl.dropboxusercontent.com/u/366007/Cargo/paris-ss.png)
 
-k :beer: time.
+:beer: time.
