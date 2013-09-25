@@ -1,7 +1,28 @@
+# TODO
+
+- increase star spin speed?
+
+- at end- gotta make a favicon (based on the french flag?)
+- Mobile test
+- ADD req'd media queries eg. comets at small view sizes
+
+- push again
+- write up this doc and screenshot
+
+## portfolio updates
+- thumbnail
+- images (in browser frame?)
+- page description
+
+comets, panning stars, planets of paralax , swinging legs, we've got it all.
+
 # Paris 2013
 
-= replace following:
-Kaomojis are like emojis but in the form of text strings like: 
+** readme writing in progress **
+
+getting closer to using the web itself as a medium rather than a canvas
+= replace following-
+Kaomojis are like emojis but in the form of text strings like- 
 this happy guy ＼（＠￣∇￣＠）／ <br>
 or 
 this dude flipping over a table (╯°□°）╯︵ ┻━┻
@@ -10,10 +31,10 @@ Kaomoji Cat is a webapp that helps you find the perfect kaomoji to express how y
 
 While there are way more kaomojis than emojis, kaomojis can be more flexible and expressive. I played off that quirky expressiveness with the character of the Kaomoji cat, fish and red string. The cat and his app hopefully comes across as cute, precocious and maybe a little bit creepy.
 
-[Try it](http://kaomoji.comoj.com/ "See Kaomoji Cat")<br>
-[More details](http://pketh.org/Kaomoji-Cat)
+[Try it](http-//kaomoji.comoj.com/ "See Kaomoji Cat")<br>
+[More details](http-//pketh.org/Kaomoji-Cat)
 
-![screenshot](http://payload100.cargocollective.com/1/0/1410/4319041/photo-4.png)
+![screenshot](http-//payload100.cargocollective.com/1/0/1410/4319041/photo-4.png)
 
 
 -------------------------
@@ -22,6 +43,7 @@ experiment in interactive poster design
 
 wanted to do everything from scratch in the lightest weight way . so no external libs , just jquery. High in DRY.
 
+fun thing to get hands on with the fancier side of css , paralax, animations, etc.
 
 more comfortable with the illustrator pen tool than a paint brush
 
@@ -37,8 +59,8 @@ element of abstract ness to it
 theme pf paris. started with a worlds fair and that glamour
 name = started as a poster for a world’s fair based the one in paris in 1937
 
-: at end: gotta make a favicon
-
-: ADD media queries for comets at small view sizes
-
 responsive posters . screens on every surface. future of posters?
+
+i only did the simplest of performance optimizations, pull requests always appreciated.
+
+:beer: time.
