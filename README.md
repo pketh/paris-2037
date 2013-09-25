@@ -1,66 +1,12 @@
-# TODO
+# Paris 2037
 
-- increase star spin speed?
+Paris 2037 is a simple experiment with CSS animation and parallax. The style was inspired by old world's fair posters and geometric + negative space illustration. I also wanted to push myself to do something that treated the web itself as a new cinematic medium.
 
-- at end- gotta make a favicon (based on the french flag?)
-- Mobile test
-- ADD req'd media queries eg. comets at small view sizes
+This project uses a super lightweight stack. No other required dependencies other than jQuery. Performance wise, It works fine on desktop, but may be slower on older phones - I only did the simplest of optimizations, pull requests always appreciated :)
 
-- push again
-- write up this doc and screenshot
+[Try it](#link "Alt txt here")<br>
+[More details](#portfoliolink)
 
-## portfolio updates
-- thumbnail
-- images (in browser frame?)
-- page description
+![screenshot](https://dl.dropboxusercontent.com/u/366007/Cargo/paris-ss.png)
 
-comets, panning stars, planets of paralax , swinging legs, we've got it all.
-
-# Paris 2013
-
-** readme writing in progress **
-
-getting closer to using the web itself as a medium rather than a canvas
-= replace following-
-Kaomojis are like emojis but in the form of text strings like- 
-this happy guy ＼（＠￣∇￣＠）／ <br>
-or 
-this dude flipping over a table (╯°□°）╯︵ ┻━┻
-
-Kaomoji Cat is a webapp that helps you find the perfect kaomoji to express how you're feeling. 
-
-While there are way more kaomojis than emojis, kaomojis can be more flexible and expressive. I played off that quirky expressiveness with the character of the Kaomoji cat, fish and red string. The cat and his app hopefully comes across as cute, precocious and maybe a little bit creepy.
-
-[Try it](http-//kaomoji.comoj.com/ "See Kaomoji Cat")<br>
-[More details](http-//pketh.org/Kaomoji-Cat)
-
-![screenshot](http-//payload100.cargocollective.com/1/0/1410/4319041/photo-4.png)
-
-
--------------------------
-
-experiment in interactive poster design
-
-wanted to do everything from scratch in the lightest weight way . so no external libs , just jquery. High in DRY.
-
-fun thing to get hands on with the fancier side of css , paralax, animations, etc.
-
-more comfortable with the illustrator pen tool than a paint brush
-
-my roots are in vector based illustration
-
-paris 2037 is a web illustration experiment
-cinematic rather than interactive
-place to play with negative space illustration and css/jquery animation
-dipping my toes into making an illustration come to life in a web native way
-
-element of abstract ness to it
-
-theme pf paris. started with a worlds fair and that glamour
-name = started as a poster for a world’s fair based the one in paris in 1937
-
-responsive posters . screens on every surface. future of posters?
-
-i only did the simplest of performance optimizations, pull requests always appreciated.
-
-:beer: time.
+k :beer: time.
