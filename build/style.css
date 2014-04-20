@@ -21,7 +21,7 @@ body {
 }
 
 .comet {
-  background-image: url('/images/comet.svg');
+  background-image: url('../images/comet.svg');
   position: absolute;
   width: 492px;
   height: 493px;
@@ -653,7 +653,7 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  background-image: url('/images/city.svg');
+  background-image: url('../images/city.svg');
   background-position: center center;
   background-repeat: no-repeat;
   height: 800px;
@@ -700,7 +700,7 @@ body {
   position: absolute;
   top: 440px;
   background-repeat: repeat-x;
-  background-image: url('/images/midstars.svg');
+  background-image: url('../images/midstars.svg');
   height: 305px;
   width: 100%;
   -webkit-animation-iteration-count: infinite;
