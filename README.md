@@ -6,7 +6,7 @@ This project uses a super lightweight stack. No other required dependencies othe
 
 Performance wise, It works fine on desktop, but may be slower on older phones - I only did the simplest of optimizations, pull requests always appreciated :)
 
-[Try it](http://paris.comuf.com "Alt txt here")<br>
+[Try it](http://pketh.github.io/Paris-2037/ "Alt txt here")<br>
 [More details](http://pketh.org/Paris-2037)
 
 <a href="http://paris.comuf.com"><img src="https://dl.dropboxusercontent.com/u/366007/Cargo/paris-thumb.png"></a>
